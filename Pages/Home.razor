@@ -1,3 +1,49 @@
 @page "/"
 
-<h1>Hello from the agent</h1>
+<h1>Customers</h1>
+
+<p>Here are a few random customers.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in customers)
+        {
+            <tr>
+                <td>@customer.Name</td>
+                <td>@customer.Age</td>
+                <td>@customer.Gender</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Customer> customers = new()
+    {
+        new Customer("Ava Thompson", 29, "Female"),
+        new Customer("Liam Patel", 34, "Male"),
+        new Customer("Sofia Martinez", 41, "Female"),
+        new Customer("Noah Kim", 26, "Male")
+    };
+
+    private class Customer
+    {
+        public Customer(string name, int age, string gender)
+        {
+            Name = name;
+            Age = age;
+            Gender = gender;
+        }
+
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Gender { get; set; }
+    }
+}
