@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IiuqMVL4eAU=",
+  "dgSpecHash": "8ZATSivxZn4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\mvp-blazor-774c6b8863\\mvp-blazor-774c6b8863.csproj",
+  "projectFilePath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-0f40def902\\mvp-blazor-774c6b8863.csproj",
   "expectedPackageFiles": [
     "E:\\Nuget\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
     "E:\\Nuget\\microsoft.aspnetcore.authorization\\10.0.3\\microsoft.aspnetcore.authorization.10.0.3.nupkg.sha512",
