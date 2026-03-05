@@ -2142,11 +2142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-0f40def902\\mvp-blazor-774c6b8863.csproj",
+      "projectUniqueName": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-87afe6e414\\mvp-blazor-774c6b8863.csproj",
       "projectName": "mvp-blazor-774c6b8863",
-      "projectPath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-0f40def902\\mvp-blazor-774c6b8863.csproj",
+      "projectPath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-87afe6e414\\mvp-blazor-774c6b8863.csproj",
       "packagesPath": "E:\\Nuget",
-      "outputPath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-0f40def902\\obj\\",
+      "outputPath": "C:\\Users\\davew\\AppData\\Local\\Temp\\mvp-blazor\\builder_mvp-blazor-774c6b8863-87afe6e414\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,13 +1,19 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+        <header class="top-nav">
+            <div class="top-nav-brand">Blazor App</div>
+            <nav class="top-nav-links">
+                <NavLink href="" Match="NavLinkMatch.All">Home</NavLink>
+                <NavLink href="counter">Counter</NavLink>
+                <NavLink href="weather">Weather</NavLink>
+            </nav>
+        </header>
 
         <article class="content px-4">
             @Body

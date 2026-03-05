@@ -24,17 +24,47 @@ main[b-nkh1x91uux] {
     .top-row[b-nkh1x91uux]  a, .top-row[b-nkh1x91uux]  .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
-        text-decoration: none;
     }
 
-    .top-row[b-nkh1x91uux]  a:hover, .top-row[b-nkh1x91uux]  .btn-link:hover {
-        text-decoration: underline;
-    }
-
-    .top-row[b-nkh1x91uux]  a:first-child {
+    .top-row a:first-child[b-nkh1x91uux] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+.top-nav[b-nkh1x91uux] {
+    background-color: #6f42c1;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    height: 3.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.top-nav-brand[b-nkh1x91uux] {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.top-nav-links[b-nkh1x91uux] {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav a[b-nkh1x91uux] {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.top-nav a.active[b-nkh1x91uux] {
+    text-decoration: underline;
+}
 
 @media (max-width: 640.98px) {
     .top-row[b-nkh1x91uux] {
@@ -43,6 +73,22 @@ main[b-nkh1x91uux] {
 
     .top-row[b-nkh1x91uux]  a, .top-row[b-nkh1x91uux]  .btn-link {
         margin-left: 0;
+    }
+
+    .top-nav[b-nkh1x91uux] {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0.75rem 1rem;
+    }
+
+    .top-nav-links[b-nkh1x91uux] {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .top-nav-links a[b-nkh1x91uux] {
+        margin-left: 0;
+        margin-right: 1rem;
     }
 }
 
@@ -64,14 +110,17 @@ main[b-nkh1x91uux] {
         z-index: 1;
     }
 
-    .top-row.auth[b-nkh1x91uux]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
+    .top-row.auth[b-nkh1x91uux] {
+        height: auto;
     }
 
     .top-row[b-nkh1x91uux], article[b-nkh1x91uux] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
+    }
+
+    .top-nav[b-nkh1x91uux], article[b-nkh1x91uux] {
+        padding-left: 2rem;
+        padding-right: 1.5rem;
     }
 }
